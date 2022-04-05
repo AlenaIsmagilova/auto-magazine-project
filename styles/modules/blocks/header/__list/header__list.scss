@@ -1,0 +1,10 @@
+.header__list {
+  @include reset-list;
+  display: flex;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__list {
+    display: none;
+  }
+}

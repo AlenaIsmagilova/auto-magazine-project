@@ -1,0 +1,16 @@
+.header {
+  font-family: $fontFamily;
+  width: $stretchContainer;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  border-bottom: $borderBottom;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1439px) {
+  .header {
+    justify-content: flex-end;
+  }
+}

@@ -1,0 +1,16 @@
+.content__style-wrapper {
+  width: 50%;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1439px) {
+  .content__style-wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content__style-wrapper {
+    min-width: 280px;
+  }
+}

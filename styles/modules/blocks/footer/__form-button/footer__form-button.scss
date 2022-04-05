@@ -1,0 +1,16 @@
+.footer__form-button {
+  width: 80px;
+  height: 32px;
+  border: $border;
+  box-sizing: border-box;
+  background-color: $primaryColor;
+  color: $secondaryColor;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  @include reset-button;
+  cursor: pointer;
+}

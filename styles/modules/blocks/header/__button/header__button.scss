@@ -1,0 +1,31 @@
+.header__button {
+  display: none;
+}
+
+.header__button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__button {
+    width: 26px;
+    height: 20px;
+    background-image: url(../../../../../images/humburgerMenu.svg);
+    background-color: transparent;
+    background-position: center;
+    background-size: contain;
+    @include reset-button;
+    margin: 0 34px 0 232px;
+    transition: opacity 1s ease;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__button {
+    width: 20px;
+    height: 16px;
+    margin: 0 20px 0 70px;
+  }
+}

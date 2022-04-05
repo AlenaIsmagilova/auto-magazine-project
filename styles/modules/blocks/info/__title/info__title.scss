@@ -1,0 +1,7 @@
+.info__title {
+  @include reset-text;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 46px;
+  color: $primaryColor;
+}

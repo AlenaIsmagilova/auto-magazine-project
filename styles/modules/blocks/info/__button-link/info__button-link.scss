@@ -1,0 +1,21 @@
+.info__button-link {
+  @include reset-button;
+  background-color: $secondaryColor;
+  transition: background-color 1s ease, color 1s ease;
+  width: 110px;
+  height: 52px;
+  border-radius: 100px / 50px;
+}
+
+.info__button-link:hover {
+  cursor: pointer;
+  background-color: $primaryColor;
+  color: $secondaryColor;
+}
+
+@media screen and (max-width: 767px) {
+  .info__button-link {
+    width: 88px;
+    height: 42px;
+  }
+}

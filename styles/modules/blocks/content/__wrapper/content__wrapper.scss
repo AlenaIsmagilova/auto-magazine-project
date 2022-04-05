@@ -1,0 +1,10 @@
+.content__wrapper {
+  display: flex;
+  border-bottom: $borderBottom;
+}
+
+@media screen and (max-width: 1439px) {
+  .content__wrapper {
+    display: block;
+  }
+}

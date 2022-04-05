@@ -1,0 +1,14 @@
+.footer__copyright {
+  @include reset-text;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  color: $primaryColor;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    padding: 20px 0 0 12px;
+  }
+}

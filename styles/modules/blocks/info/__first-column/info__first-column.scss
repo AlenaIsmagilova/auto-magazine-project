@@ -1,0 +1,13 @@
+.info__first-column {
+  width: 50%;
+  min-height: 499px;
+  border-right: $borderRight;
+  padding: 50px 0 0 50px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1439px) {
+  .info__first-column {
+    display: none;
+  }
+}

@@ -1,0 +1,17 @@
+.preview__subtitle {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  color: $primaryColor;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .preview__subtitle {
+    font-size: 11px;
+    line-height: 14px;
+    margin: 0 0 26px;
+  }
+}

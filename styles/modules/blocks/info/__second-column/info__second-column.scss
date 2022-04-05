@@ -1,0 +1,19 @@
+.info__second-column {
+  width: 50%;
+  min-height: 499px;
+  padding: 50px 50px 0px 50px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1439px) {
+  .info__second-column {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .info__second-column {
+    padding: 20px 20px 0px 20px;
+    min-height: 286px;
+  }
+}

@@ -1,0 +1,14 @@
+.footer__title {
+  @include reset-text;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 46px;
+  color: $primaryColor;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__title {
+    font-size: 26px;
+    line-height: 26px;
+  }
+}

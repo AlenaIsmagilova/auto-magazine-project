@@ -1,0 +1,16 @@
+.info__excerpt {
+  @include reset-text;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  color: $primaryColor;
+  margin-bottom: 263px;
+}
+
+@media screen and (max-width: 767px) {
+  .info__excerpt {
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 150px;
+  }
+}

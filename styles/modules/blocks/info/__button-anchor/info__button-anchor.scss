@@ -1,0 +1,28 @@
+.info__button-anchor {
+  width: 100%;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  color: $primaryColor;
+  background-color: $secondaryColor;
+  text-decoration: none;
+  transition: background-color 1s ease, color 1s ease;
+  border-radius: 100px / 50px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e1fd2c;
+}
+
+.info__button-anchor:hover {
+  cursor: pointer;
+  background-color: $primaryColor;
+  color: $secondaryColor;
+}
+
+@media screen and (max-width: 767px) {
+  .info__button-anchor {
+    font-size: 14px;
+  }
+}
