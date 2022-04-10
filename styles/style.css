@@ -8,7 +8,7 @@
 }
 
 .header {
-  font-family: Sourse Sans Pro, sans-serif;
+  font-family: "Sourse Sans Pro", sans-serif;
   width: 100%;
   min-height: 70px;
   display: flex;
@@ -111,7 +111,7 @@
   }
 }
 .preview {
-  font-family: Sourse Sans Pro, sans-serif;
+  font-family: "Sourse Sans Pro", sans-serif;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -245,7 +245,7 @@
   }
 }
 .content {
-  font-family: Sourse Sans Pro, sans-serif;
+  font-family: "Sourse Sans Pro", sans-serif;
   width: 100%;
   box-sizing: border-box;
 }
@@ -450,7 +450,6 @@
 .content__gallery-container {
   display: flex;
   width: 300%;
-  transform: translateX();
 }
 
 @media screen and (max-width: 1439px) {
@@ -469,7 +468,7 @@
   padding: 0;
   width: 42px;
   height: 34px;
-  background-image: url(/images/leftGalleryBtn.svg);
+  background-image: url("../../../../../images/leftGalleryBtn.svg");
   background-color: #191d2c;
   margin-right: 30px;
   transition: opacity 1s ease;
