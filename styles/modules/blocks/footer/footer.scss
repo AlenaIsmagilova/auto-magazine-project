@@ -1,0 +1,14 @@
+.footer {
+  font-family: $fontFamily;
+  min-height: 316px;
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+}
+
+@media screen and (max-width: $mobile) {
+  .footer {
+    min-height: 429px;
+    display: block;
+  }
+}

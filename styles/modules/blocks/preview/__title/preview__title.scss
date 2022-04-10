@@ -1,0 +1,16 @@
+.preview__title {
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 73px;
+  text-align: center;
+  color: $primaryColor;
+  margin: 0 0 51px;
+}
+
+@media screen and (max-width: $mobile) {
+  .preview__title {
+    font-size: 38px;
+    line-height: 50px;
+    margin: 0 0 30px;
+  }
+}

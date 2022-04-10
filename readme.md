@@ -8,4 +8,4 @@ _Проект о старом микроавтобусе с новым элек�
 3. SCSS
 4. JS
 5. ~~Mobile friendly~~ Adaptive Layout  
-   Посмотреть проект можно по [ссылке](https://alenaismagilova.github.io/auto-magazine-project/)
+   Посмотреть проект можно по [ссылке](https://alenaismagilova.github.io/auto-magazine/)

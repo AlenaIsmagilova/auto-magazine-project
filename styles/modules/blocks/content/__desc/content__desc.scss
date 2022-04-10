@@ -1,0 +1,29 @@
+.content__desc {
+  min-height: 506px;
+  color: $primaryColor;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  margin: 0;
+  border-right: $borderRight;
+  padding: 41px 50px 45px;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+@media screen and (max-width: $tablet) {
+  .content__desc {
+    width: 100%;
+    border-bottom: $borderBottom;
+    min-height: 422px;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .content__desc {
+    font-size: 16px;
+    line-height: 27px;
+    min-height: 333px;
+    padding: 19px 20px;
+  }
+}

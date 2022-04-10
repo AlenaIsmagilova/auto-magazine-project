@@ -1,0 +1,23 @@
+.content__image {
+  width: 100%;
+  height: 540px;
+  display: block;
+  box-sizing: border-box;
+  border-right: $borderRight;
+}
+
+@media screen and (max-width: $tablet) {
+  .content__image {
+    height: 510px;
+    width: 100%;
+    border-right: none;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .content__image {
+    height: 204px;
+    width: 100%;
+  }
+}

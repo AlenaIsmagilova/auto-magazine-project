@@ -1,0 +1,21 @@
+.content__button-forward {
+  @include reset-button;
+  width: 42px;
+  height: 34px;
+  background-image: url("../images/rightGalleryBtn.svg");
+  background-color: $secondaryColor;
+  transition: opacity 1s ease;
+  background-size: cover;
+}
+
+.content__button-forward:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 767px) {
+  .content__button-forward {
+    width: 24px;
+    height: 20px;
+  }
+}

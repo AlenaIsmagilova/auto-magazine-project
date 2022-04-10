@@ -1,0 +1,13 @@
+.info__button {
+  background-image: url("../images/unreadingButton.svg");
+  width: 12px;
+  height: 12px;
+  @include reset-button;
+  background-color: $secondaryColor;
+  margin-right: 14px;
+  cursor: pointer;
+}
+
+.info__button:last-of-type {
+  margin-right: 0;
+}

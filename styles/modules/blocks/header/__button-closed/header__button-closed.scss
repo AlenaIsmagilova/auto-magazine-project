@@ -1,0 +1,32 @@
+.header__button-closed {
+  background-image: url("../images/humburgerMenuOpened.svg");
+  background-size: auto;
+  margin: 0;
+  height: 26px;
+  display: none;
+}
+
+.header__button-closed:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: $tablet) {
+  .header__button-closed {
+    width: 26px;
+    height: 20px;
+    background-color: transparent;
+    background-position: center;
+    @include reset-button;
+    margin: 0 34px 0 232px;
+    transition: opacity 1s ease;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .header__button-closed {
+    width: 20px;
+    height: 16px;
+    margin: 0 20px 0 70px;
+  }
+}

@@ -1,0 +1,18 @@
+.content__columns-wrapper {
+  display: flex;
+  width: 50%;
+}
+
+@media screen and (max-width: $tablet) {
+  .content__columns-wrapper {
+    width: 100%;
+    min-height: 506px;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .content__columns-wrapper {
+    display: block;
+    min-height: 323px;
+  }
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Auto-magazine</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <ul class="header__list">
+        <li class="header__item">
+          <a href="#facts" class="header__link">Факты</a>
+        </li>
+        <li class="header__item">
+          <a href="#gallery" class="header__link">Галерея</a>
+        </li>
+        <li class="header__item">
+          <a href="#info" class="header__link">Пресса</a>
+        </li>
+      </ul>
+      <img
+        src="./images/AUTO-MAGAZINE.svg"
+        alt="логотип"
+        class="logo logo_place_header"
+      />
+      <button class="header__button" type="button"></button>
+      <button class="header__button-closed" type="button"></button>
+    </header>
+    <main class="content">
+      <section class="preview">
+        <div class="preview__container">
+          <h2 class="preview__subtitle">volkswagen T1</h2>
+          <h1 class="preview__title">Новая версия популярного микроавтобуса</h1>
+          <h2 class="preview__subtitle">С&nbsp;электродвигателем</h2>
+        </div>
+        <a class="preview__button" href="#">Подробнее</a>
+        <img
+          src="./images/retroBus.png"
+          alt="ретро-автобус"
+          class="preview__image"
+        />
+      </section>
+
+      <div class="content__wrapper">
+        <p class="content__desc">
+          VW&nbsp;T1&nbsp;Electro: Отделение Volkswagen Commercial Vehicles
+          представило концепт e-Bulli: классический вэн T1 1966 года
+          с&nbsp;электрической силовой установкой. По&nbsp;словам производителя,
+          проект получит коммерческое продолжение, и&nbsp;через фирму-партнера
+          eClassics наборы для конверсии микроавтобусов в&nbsp;электрокары
+          и&nbsp;уже готовые машины будут продавать частным клиентам.
+        </p>
+        <div class="content__columns-wrapper">
+          <div class="content__pluses-column">
+            <h3 class="content__title">Плюсы</h3>
+            <ul class="content__list">
+              <li class="content__item">+ Экологичный</li>
+              <li class="content__item">+ Экономный</li>
+              <li class="content__item">+ Тихий</li>
+            </ul>
+          </div>
+          <div class="content__minuses-column">
+            <h3 class="content__title">Минусы</h3>
+            <ul class="content__list">
+              <li class="content__item">- Дорогой</li>
+              <li class="content__item">- Подзарядка</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="content__gallery">
+        <div class="content__style-wrapper">
+          <div
+            class="content__gallery-container"
+            style="transform: translateX(0)"
+          >
+            <div class="content__gallery-image-wrapper">
+              <img
+                src="./images/galleryPhoto1.png"
+                alt="Ретро-автобус с высоты"
+                class="content__image"
+              />
+            </div>
+            <div class="content__gallery-image-wrapper">
+              <img
+                src="./images/insideAutoFront.png"
+                alt="Ретро-автобус с высоты"
+                class="content__image"
+              />
+            </div>
+            <div class="content__gallery-image-wrapper">
+              <img
+                src="./images/insideAutoBack.png"
+                alt="Ретро-автобус с высоты"
+                class="content__image"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="content__gallery-wrapper">
+          <h2 class="title">Галерея</h2>
+          <div class="content__button-wrapper">
+            <button class="content__button-back"></button>
+            <button class="content__button-forward"></button>
+          </div>
+        </div>
+      </div>
+      <section class="info">
+        <div class="info__first-column">
+          <h2 class="title">Пресса</h2>
+        </div>
+        <div class="info__second-column">
+          <p class="info__excerpt">
+            Engadget: VW&rsquo;s e-BULLI concept shows how your classic van can
+            become an&nbsp;EV.
+          </p>
+          <div class="info__button-wrapper">
+            <div class="info__button-gallery">
+              <button
+                class="info__button info__button_active"
+                id="left-button"
+                type="button"
+              ></button>
+              <button class="info__button" id="right-button"></button>
+            </div>
+            <a
+              class="info__button-anchor"
+              href="https://www.engadget.com/2020-03-20-vw-unveils-e-bulli-t1-electric-conversion.html"
+              target="_blank"
+              >Читать</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__form-column">
+        <h2 class="title">Подписка</h2>
+        <p class="footer__text">На новые спецвыпуски машин.</p>
+        <form class="footer__form" name="form1">
+          <div class="footer__form-wrapper">
+            <input
+              class="footer__form-input-name"
+              id="inputFirstName"
+              type="text"
+              name="firstname"
+              placeholder="Имя"
+              required
+            />
+            <input
+              class="footer__form-input-name"
+              id="inputSecondName"
+              type="text"
+              name="secondname"
+              placeholder="Фамилия"
+              required
+            />
+          </div>
+          <div class="footer__form-wrapper">
+            <input
+              class="footer__form-input-email"
+              id="inputEmail"
+              type="email"
+              name="email"
+              placeholder="Почта"
+              required
+            />
+            <button class="footer__form-button" type="submit">подписка</button>
+          </div>
+        </form>
+      </div>
+      <div class="footer__copyright-column">
+        <img
+          src="./images/AUTO-MAGAZINE.svg"
+          alt="логотип"
+          class="logo logo_place_footer"
+        />
+        <p class="footer__copyright">© Auto-Magazine 2021</p>
+      </div>
+    </footer>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>

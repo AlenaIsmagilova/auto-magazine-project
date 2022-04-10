@@ -1,0 +1,23 @@
+.preview__image {
+  // height: 540px;
+  grid-area: image;
+}
+
+@media screen and (max-width: $tablet) {
+  .preview__image {
+    height: 510px;
+    width: 700px;
+    object-fit: cover;
+    order: 2;
+    align-self: center;
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .preview__image {
+    margin-top: 34px;
+    height: 202px;
+    width: 280px;
+  }
+}

@@ -1,0 +1,13 @@
+.content__minuses-column {
+  padding: 41px 0 0 50px;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+@media screen and (max-width: $mobile) {
+  .content__minuses-column {
+    border-right: none;
+    width: 100%;
+    padding: 20px 0 0px 20px;
+  }
+}

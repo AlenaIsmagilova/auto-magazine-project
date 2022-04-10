@@ -1,0 +1,11 @@
+.info__button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: $mobile) {
+  .info__button-wrapper {
+    margin-bottom: 20px;
+  }
+}

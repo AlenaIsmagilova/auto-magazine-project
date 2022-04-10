@@ -1,0 +1,10 @@
+.content__wrapper {
+  display: flex;
+  border-bottom: $borderBottom;
+}
+
+@media screen and (max-width: $tablet) {
+  .content__wrapper {
+    display: block;
+  }
+}

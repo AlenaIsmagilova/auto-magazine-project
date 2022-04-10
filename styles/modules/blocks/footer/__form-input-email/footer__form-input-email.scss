@@ -1,0 +1,33 @@
+.footer__form-input-email {
+  width: 260px;
+  height: 32px;
+  border: $border;
+  color: $primaryColor;
+  background-color: $secondaryColor;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  padding: 7px 0 7px 11px;
+  cursor: pointer;
+}
+
+.footer__form-input-email::placeholder {
+  color: $primaryColor;
+}
+
+.footer__form-input-email:focus {
+  outline: none;
+}
+
+.footer__form-input-email:focus::placeholder {
+  color: rgba(225, 253, 44, 0);
+}
+
+@media screen and (max-width: $mobile) {
+  .footer__form-input-email {
+    width: 201px;
+  }
+}

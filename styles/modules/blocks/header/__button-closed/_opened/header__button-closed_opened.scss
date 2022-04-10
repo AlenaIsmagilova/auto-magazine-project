@@ -1,0 +1,20 @@
+@media screen and (max-width: $tablet) {
+  .header__button-closed_opened {
+    width: 26px;
+    display: block;
+    height: 26px;
+    background-color: transparent;
+    background-position: center;
+    @include reset-button;
+    margin: 0 29px 0 0;
+    transition: opacity 1s ease;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .header__button-closed_opened {
+    width: 26px;
+    height: 26px;
+    margin: 0 15px 0 0;
+  }
+}
