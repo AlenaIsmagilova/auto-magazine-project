@@ -7,9 +7,10 @@
   grid-area: text;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: $tablet) {
   .preview__container {
     margin: 0 104px 0;
     order: 1;
+    align-self: center;
   }
 }

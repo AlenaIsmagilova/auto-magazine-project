@@ -1,5 +1,5 @@
 .content__title {
-  @include reset-text;
+  margin: 0;
   font-weight: 400;
   font-size: 30px;
   line-height: 37px;
@@ -9,7 +9,7 @@
   margin-bottom: 50px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $mobile) {
   .content__title {
     font-size: 22px;
     line-height: 22px;

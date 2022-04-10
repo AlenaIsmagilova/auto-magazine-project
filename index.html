@@ -20,21 +20,29 @@
           <a href="#info" class="header__link">Пресса</a>
         </li>
       </ul>
-      <img src="./images/AUTO-MAGAZINE.png" alt="логотип" class="logo" />
+      <img
+        src="./images/AUTO-MAGAZINE.svg"
+        alt="логотип"
+        class="logo logo_place_header"
+      />
       <button class="header__button" type="button"></button>
       <button class="header__button-closed" type="button"></button>
     </header>
-    <nav class="preview">
-      <div class="preview__container">
-        <h2 class="preview__subtitle">volkswagen T1</h2>
-        <h1 class="preview__title">Новая версия популярного микроавтобуса</h1>
-        <h2 class="preview__subtitle">С&nbsp;электродвигателем</h2>
-      </div>
-      <button class="preview__button" type="button">Подробнее</button>
-      <img src="./images/retroBus.png" alt="retro-bus" class="preview__image" />
-    </nav>
     <main class="content">
-      <a name="facts"></a>
+      <section class="preview">
+        <div class="preview__container">
+          <h2 class="preview__subtitle">volkswagen T1</h2>
+          <h1 class="preview__title">Новая версия популярного микроавтобуса</h1>
+          <h2 class="preview__subtitle">С&nbsp;электродвигателем</h2>
+        </div>
+        <a class="preview__button" href="#">Подробнее</a>
+        <img
+          src="./images/retroBus.png"
+          alt="ретро-автобус"
+          class="preview__image"
+        />
+      </section>
+
       <div class="content__wrapper">
         <p class="content__desc">
           VW&nbsp;T1&nbsp;Electro: Отделение Volkswagen Commercial Vehicles
@@ -63,7 +71,6 @@
         </div>
       </div>
       <div class="content__gallery">
-        <a name="gallery"></a>
         <div class="content__style-wrapper">
           <div
             class="content__gallery-container"
@@ -93,17 +100,16 @@
           </div>
         </div>
         <div class="content__gallery-wrapper">
-          <h2 class="content__gallery-title">Галерея</h2>
+          <h2 class="title">Галерея</h2>
           <div class="content__button-wrapper">
-            <button class="content__button-left"></button>
-            <button class="content__button-right"></button>
+            <button class="content__button-back"></button>
+            <button class="content__button-forward"></button>
           </div>
         </div>
       </div>
       <section class="info">
-        <a name="info"></a>
         <div class="info__first-column">
-          <h2 class="info__title">Пресса</h2>
+          <h2 class="title">Пресса</h2>
         </div>
         <div class="info__second-column">
           <p class="info__excerpt">
@@ -115,27 +121,25 @@
               <button
                 class="info__button info__button_active"
                 id="left-button"
+                type="button"
               ></button>
               <button class="info__button" id="right-button"></button>
             </div>
-
-            <button class="info__button-link" type="button">
-              <a
-                class="info__button-anchor"
-                href="https://www.engadget.com/2020-03-20-vw-unveils-e-bulli-t1-electric-conversion.html"
-                target="_blank"
-                >Читать</a
-              >
-            </button>
+            <a
+              class="info__button-anchor"
+              href="https://www.engadget.com/2020-03-20-vw-unveils-e-bulli-t1-electric-conversion.html"
+              target="_blank"
+              >Читать</a
+            >
           </div>
         </div>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__form-column">
-        <h2 class="footer__title">Подписка</h2>
+        <h2 class="title">Подписка</h2>
         <p class="footer__text">На новые спецвыпуски машин.</p>
-        <form action="" class="footer__form">
+        <form class="footer__form" name="form1">
           <div class="footer__form-wrapper">
             <input
               class="footer__form-input-name"
@@ -143,6 +147,7 @@
               type="text"
               name="firstname"
               placeholder="Имя"
+              required
             />
             <input
               class="footer__form-input-name"
@@ -150,6 +155,7 @@
               type="text"
               name="secondname"
               placeholder="Фамилия"
+              required
             />
           </div>
           <div class="footer__form-wrapper">
@@ -159,6 +165,7 @@
               type="email"
               name="email"
               placeholder="Почта"
+              required
             />
             <button class="footer__form-button" type="submit">подписка</button>
           </div>
@@ -166,7 +173,7 @@
       </div>
       <div class="footer__copyright-column">
         <img
-          src="./images/AUTO-MAGAZINE.png"
+          src="./images/AUTO-MAGAZINE.svg"
           alt="логотип"
           class="logo logo_place_footer"
         />

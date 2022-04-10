@@ -4,7 +4,7 @@
   align-items: flex-end;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $mobile) {
   .info__button-wrapper {
     margin-bottom: 20px;
   }

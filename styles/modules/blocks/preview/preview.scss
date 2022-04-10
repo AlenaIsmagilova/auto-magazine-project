@@ -9,7 +9,7 @@
   padding: 150px 0;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: $tablet) {
   .preview {
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $mobile) {
   .preview {
     padding: 60px 0;
   }

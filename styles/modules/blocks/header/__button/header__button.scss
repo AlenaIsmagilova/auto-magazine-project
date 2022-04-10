@@ -7,11 +7,11 @@
   opacity: 0.6;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: $tablet) {
   .header__button {
     width: 26px;
     height: 20px;
-    background-image: url(../../../../../images/humburgerMenu.svg);
+    background-image: url("../images/humburgerMenu.svg");
     background-color: transparent;
     background-position: center;
     background-size: contain;
@@ -22,7 +22,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $mobile) {
   .header__button {
     width: 20px;
     height: 16px;

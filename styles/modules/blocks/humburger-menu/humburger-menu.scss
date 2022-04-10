@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: $tablet) {
   .humburger-menu {
     display: flex;
     justify-content: flex-end;

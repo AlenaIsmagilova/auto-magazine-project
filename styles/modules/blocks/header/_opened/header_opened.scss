@@ -1,11 +1,11 @@
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: $tablet) {
   .header_opened {
     justify-content: space-between;
     padding-left: 34px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $mobile) {
   .header_opened {
     justify-content: space-between;
     padding-left: 20px;

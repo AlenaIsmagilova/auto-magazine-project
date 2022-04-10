@@ -1,6 +1,6 @@
 //gallery
-const galleryButtonBack = document.querySelector(".content__button-left");
-const galleryButtonForward = document.querySelector(".content__button-right");
+const galleryButtonBack = document.querySelector(".content__button-back");
+const galleryButtonForward = document.querySelector(".content__button-forward");
 const galleryContainer = document.querySelector(".content__gallery-container");
 const humburgerMenuButton = document.querySelector(".humburger-menu__button");
 const humburgerMenu = document.querySelector(".humburger_menu");

@@ -3,13 +3,13 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: $tablet) {
   .content__style-wrapper {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $mobile) {
   .content__style-wrapper {
     min-width: 280px;
   }

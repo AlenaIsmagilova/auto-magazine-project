@@ -5,11 +5,13 @@
 //подключаем здесь функции, миксины, а затем уже блоки самого проекта
 
 @import "./modules/blocks/page/page.scss";
+@import "./modules/blocks/title/title.scss";
 @import "./modules/blocks/header/header.scss";
 @import "./modules/blocks/header/_opened/header_opened.scss";
 @import "./modules/blocks/logo/logo.scss";
 @import "./modules/blocks/logo/_opened/logo_opened.scss";
 @import "./modules/blocks/logo/_place/logo_place_footer.scss";
+@import "./modules/blocks/logo/_place/logo_place_header.scss";
 @import "./modules/blocks/header/__list/header__list.scss";
 @import "./modules/blocks/header/__list/_opened/header__list_opened.scss";
 @import "./modules/blocks/header/__item/header__item.scss";
@@ -32,14 +34,12 @@
 @import "./modules/blocks/content/__image/content__image.scss";
 @import "./modules/blocks/content/__style-wrapper/content__style-wrapper.scss";
 @import "./modules/blocks/content/__gallery-wrapper/content__gallery-wrapper.scss";
-@import "./modules/blocks/content/__gallery-title/content__gallery-title.scss";
 @import "./modules/blocks/content/__gallery/content__gallery.scss";
 @import "./modules/blocks/content/__gallery-container/content__gallery-container.scss";
 @import "./modules/blocks/content/__gallery-image-wrapper/content__gallery-image-wrapper.scss";
-@import "./modules/blocks/content/__button-left/content__button-left.scss";
-@import "./modules/blocks/content/__button-right/content__button-right.scss";
+@import "./modules/blocks/content/__button-back/content__button-back.scss";
+@import "./modules/blocks/content/__button-forward/content__button-forward.scss";
 @import "./modules/blocks/content/__button-wrapper/content__button-wrapper.scss";
-@import "./modules/blocks/info/__title/info__title.scss";
 @import "./modules/blocks/info/info.scss";
 @import "./modules/blocks/info/__button-anchor/info__button-anchor.scss";
 @import "./modules/blocks/info/__excerpt/info__excerpt.scss";
@@ -47,11 +47,9 @@
 @import "./modules/blocks/info/__second-column/info__second-column.scss";
 @import "./modules/blocks/info/__button/info__button.scss";
 @import "./modules/blocks/info/__button/_active/info__button_active.scss";
-@import "./modules/blocks/info/__button-link/info__button-link.scss";
 @import "./modules/blocks/info/__button-wrapper/info__button-wrapper.scss";
 @import "./modules/blocks/footer/footer.scss";
 @import "./modules/blocks/footer/__form-column/footer__form-column.scss";
-@import "./modules/blocks/footer/__title/footer__title.scss";
 @import "./modules/blocks/footer/__text/footer__text.scss";
 @import "./modules/blocks/footer/__copyright/footer__copyright.scss";
 @import "./modules/blocks/footer/__copyright-column/footer__copyright-column.scss";

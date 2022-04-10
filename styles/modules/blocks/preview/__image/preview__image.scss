@@ -3,7 +3,7 @@
   grid-area: image;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: $tablet) {
   .preview__image {
     height: 510px;
     width: 700px;
@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $mobile) {
   .preview__image {
     margin-top: 34px;
     height: 202px;

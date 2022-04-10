@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: $tablet) {
   .info__first-column {
     display: none;
   }

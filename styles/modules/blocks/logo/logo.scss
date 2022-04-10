@@ -3,7 +3,7 @@
   height: 38px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $mobile) {
   .logo {
     width: 100px;
     height: 20px;

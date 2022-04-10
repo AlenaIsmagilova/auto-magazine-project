@@ -1,5 +1,5 @@
 .footer__text {
-  @include reset-text;
+  margin: 0;
   font-weight: 400;
   font-size: 19px;
   line-height: 28px;
@@ -7,7 +7,7 @@
   margin: 16px 0 64px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $mobile) {
   .footer__text {
     font-size: 14px;
     line-height: 14px;

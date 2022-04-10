@@ -1,5 +1,5 @@
 .footer__copyright {
-  @include reset-text;
+  margin: 0;
   letter-spacing: 1px;
   font-weight: 400;
   font-size: 13px;
@@ -7,7 +7,7 @@
   color: $primaryColor;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $mobile) {
   .footer__copyright {
     padding: 20px 0 0 12px;
   }

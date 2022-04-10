@@ -16,6 +16,7 @@
   margin-top: 30px;
   grid-area: button;
   justify-self: center;
+  text-decoration: none;
 }
 
 .preview__button:hover {
@@ -24,7 +25,7 @@
   color: $secondaryColor;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: $tablet) {
   .preview__button {
     order: 3;
     align-self: center;
@@ -32,7 +33,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $mobile) {
   .preview__button {
     margin-top: 60px;
     width: 280px;

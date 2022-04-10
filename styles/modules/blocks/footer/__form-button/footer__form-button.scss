@@ -13,4 +13,9 @@
   text-align: center;
   @include reset-button;
   cursor: pointer;
+  transition: opacity 1s ease;
+}
+
+.footer__form-button:hover {
+  opacity: 0.6;
 }

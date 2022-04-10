@@ -25,3 +25,9 @@
 .footer__form-input-email:focus::placeholder {
   color: rgba(225, 253, 44, 0);
 }
+
+@media screen and (max-width: $mobile) {
+  .footer__form-input-email {
+    width: 201px;
+  }
+}
